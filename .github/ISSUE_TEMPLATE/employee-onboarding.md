@@ -7,7 +7,7 @@ assignees: LaurinHerbsthofer
 
 ---
 
-[ ] - Create O365 account
-[ ] - Give laptop
-[ ] - Give IT security training
-[ ] - Fill DocuSign
+- [ ] Create O365 account
+- [ ] Give laptop
+- [ ] Give IT security training
+- [ ] Fill DocuSign
