@@ -1,2 +1,2 @@
-# CBmed_wiki
-A company-wide wiki site for knowledge sharing
+# CBmed test wiki (public)
+Use for testing purposes only (public repository)
