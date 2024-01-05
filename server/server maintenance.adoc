@@ -48,11 +48,18 @@ If you want to see the following mermaid chart not only in the github preview bu
 
 [mermaid]
 ....
-sequenceDiagram
-    participant Alice
-    participant Bob
-    Alice->>Bob: Hello Bob, how are you?
-    Bob-->>Alice: Great!
+flowchart TD
+    A[Christmas]
+    B(Go shopping)
+    C{Let me think}
+    D[Laptop]
+    E[iPhone]
+    F[fa:fa-car Car]
+    A -->|Get money| B
+    B --> C
+    C -->|One| D
+    C -->|Two| E
+    C -->|Three| F
 ....
 
 
