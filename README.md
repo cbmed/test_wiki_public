@@ -30,26 +30,28 @@ flowchart TD
     A -->|complex| D(AsciiDoc page)
 ```
 
-Everything here is text-based to make everything easily searchable. Therefore, all documents are either Markdown (.md, preferred, simple) or AsciiDoc (.adoc, for special cases, more powerful) to let you focus on content rather than formatting.
+If you need to convert an existing markdown file to AsciiDoc (because you need more tooling), then consider using [kramdown-asciidoc](https://github.com/asciidoctor/kramdown-asciidoc).
 
-Additionally, all wiki entries are (under the hood) just Markdown files, so the same source code formatting applies.
+All information is purely text based which means:
+1. It is easily and quickly searchable
+2. It can be version controlled
+3. It can include text-based graphs (mermaid), meaning they are searchable
+4. You can focus on content, rather than formatting
+5. You can reference specific lines of the documentation
+6. The documentation is right where the issue/ticketing system and our code is located
+
+Wiki entries and Markdown pages use the same Markdown syntax.
+
+Here is some overview to help you chose what format you want to use for documentation
 
 |                     | Wiki entry           | Markdown (.md) page | AsciiDoc (.adoc) page  |
 |---------------------|----------------------|---------------------|------------------------|
-| **power**           | very simple          | medium              | powerful               |
-| **features**        | copy/paste pictures  | simple syntax       | create HTML/PDFs/Books |
+| **topic scope**     | small                | medium              | complex                |
+| **power**           | simple               | medium              | powerful               |
+| **specialities**    | copy/paste pictures  | simple syntax       | create HTML/PDFs/Books |
 | **github tooling**  | great                | none                | none                   |
 | **PyCharm tooling** | n/a                  | ok                  | good                   |
 | **version control** | only commit messages | version controlled  | version controlled     |
-
-
-Irrespective of what you use to document your information, this has a couple of advantages:
-
-* Everything is easily searchable
-* Graphs can be included in text-based form (mermaid) making them searchable, version-controllable, and easily editable without special tools
-* All changes are easily trackable and reversible with commits and pull requests. Old document versions can also be searched
-* All text and even figure components can be referenced with permalinks in issues and other documents
-* Since all IT support issues are also on Github, they can directly and easily reference to all documents and their specific lines
 
 
 
