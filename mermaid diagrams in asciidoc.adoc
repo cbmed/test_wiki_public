@@ -1,6 +1,8 @@
 = CBmed test wiki (public)
 Use for testing purposes only (public repository)
 
+https://gist.github.com/plamentotev/be495e81abd52dc10e7dd51fbb71dd8c[See this link]
+
 [source,mermaid]
 ....
 sequenceDiagram
