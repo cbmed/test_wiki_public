@@ -25,20 +25,24 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    A{Topic\nsize} -->|small| B(Wiki entry)
-    A -->|medium| C(Markdown page)
-    A -->|complex| D(AsciiDoc page)
+    A{Topic\nsize} -->|small| B[Wiki entry]
+    B -->F(✔ Easy to browse\n✔ Easy to edit online\n✔ Page history)
+    A -->|medium| C[Markdown page]
+    C -->G(✔ Version controlled\n✔ Simple syntax)
+    A -->|complex| D[AsciiDoc page]
+    D -->E(✔ Version controlled\n✔ TOC\n✔ Create HTML/PDF\n✔ Suited for SOPs)
 ```
 
 If you need to convert an existing markdown file to AsciiDoc (because you need more tooling), then consider using [kramdown-asciidoc](https://github.com/asciidoctor/kramdown-asciidoc).
 
 All information is purely text based which means:
 1. It is easily and quickly searchable
-2. It can be version controlled
-3. It can include text-based graphs (mermaid), meaning they are searchable
-4. You can focus on content, rather than formatting
-5. You can reference specific lines of the documentation
-6. The documentation is right where the issue/ticketing system and our code is located
+2. Everything is version controlled (with limitations for the wiki)
+3. You can include text-based graphs (mermaid), meaning they are searchable
+4. You can include figures by reference (automatic update)
+5. You can focus on content, rather than formatting
+6. You can reference specific lines of the documentation
+7. The documentation is right where the issue/ticketing system and our code is located
 
 Wiki entries and Markdown pages use the same Markdown syntax.
 
