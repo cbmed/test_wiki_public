@@ -8,22 +8,42 @@ Includes:
 * Projects to plan longer tasks
 * Documentation changes can be reviewed by pull requests
 
-Consider using webhooks to get changes of the github repo as a notification in Teams
+Consider using webhooks to get changes of the github repo as a notification in Teams.
+
+## How to find information
+```mermaid
+flowchart TD
+    A[Use Github\nsearch function] -->B{Found\nsolution?}
+    B -->|Yes|C(Consider improving\nthe documentation)
+    B -->|No|D(Create Github issue\nrequesting documentation)
+    D -->E{Solved with \n new doc?}
+    E -->|Yes|C
+    E -->|No|D
+```
 
 ## How to contribute
 
-Everything here is text-based to make everything easily searachable. Therefore, all documents are either Markdown (.md, preferred, simple) or AsciiDoc (.adoc, for special cases, more powerful) to let you focus on content rather than formatting.
+```mermaid
+flowchart TD
+    A{Topic\nsize} -->|small| B(Wiki entry)
+    A -->|medium| C(Markdown page)
+    A -->|complex| D(AsciiDoc page)
+```
+
+Everything here is text-based to make everything easily searchable. Therefore, all documents are either Markdown (.md, preferred, simple) or AsciiDoc (.adoc, for special cases, more powerful) to let you focus on content rather than formatting.
 
 Additionally, all wiki entries are (under the hood) just Markdown files, so the same source code formatting applies.
 
-| Markdown (.md)      | AsciiDoc (.adoc)                             |
-|---------------------|----------------------------------------------|
-| simple              | flexible/powerful                            |
-| same syntax as wiki | create html/pdf in PyCharm or commandline    |
-|                     | great tooling support in PyCharm             |
+|                     | Wiki entry           | Markdown (.md) page | AsciiDoc (.adoc) page  |
+|---------------------|----------------------|---------------------|------------------------|
+| **power**           | very simple          | medium              | powerful               |
+| **features**        | copy/paste pictures  | simple syntax       | create HTML/PDFs/Books |
+| **github tooling**  | great                | none                | none                   |
+| **PyCharm tooling** | n/a                  | ok                  | good                   |
+| **version control** | only commit messages | version controlled  | version controlled     |
 
 
-This has a couple of advantages:
+Irrespective of what you use to document your information, this has a couple of advantages:
 
 * Everything is easily searchable
 * Graphs can be included in text-based form (mermaid) making them searchable, version-controllable, and easily editable without special tools
@@ -33,23 +53,4 @@ This has a couple of advantages:
 
 
 
-## How to find information
-```mermaid
-flowchart TD
-    A[Use Github\nsearch function] -->B{Found\nsolution?}
-    B -->|Yes|C(Consider improving\nthe documentation)
-    B -->|No|D(Create Github issue\nrequesting help)
-    D -->E{Solved with new\ndocumentation?}
-    E -->|Yes|C
-    E -->|No|D
-```
-
-## How to document information
-
-```mermaid
-flowchart TD
-    A{Topic\nsize} -->|small| B(Wiki entry)
-    A -->|medium| C(Markdown page)
-    A -->|complex| D(AsciiDoc page)
-```
 
