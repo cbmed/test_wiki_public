@@ -8,11 +8,11 @@ Includes:
 * Projects to plan longer tasks
 * Documentation changes can be reviewed by pull requests
 
-Consider using webhooks to get changes of the github repo as a notification in Teams.
+Consider using webhooks to get changes of the Github repo as a notification in Teams.
 
 ## How to find information
 ```mermaid
-flowchart TD
+flowchart LR
     A[Use Github\nsearch function] -->B{Found\nsolution?}
     B -->|Yes|C(Consider improving\nthe documentation)
     B -->|No|D(Create Github issue\nrequesting documentation)
@@ -47,9 +47,9 @@ Irrespective of what you use to document your information, this has a couple of 
 
 * Everything is easily searchable
 * Graphs can be included in text-based form (mermaid) making them searchable, version-controllable, and easily editable without special tools
-* All changes are easily trackable and reversable with commits and pull requests. Old document versions can also be searched
+* All changes are easily trackable and reversible with commits and pull requests. Old document versions can also be searched
 * All text and even figure components can be referenced with permalinks in issues and other documents
-* Since all IT support issues are also on github, they can directly and easily reference to all documents and their specific lines
+* Since all IT support issues are also on Github, they can directly and easily reference to all documents and their specific lines
 
 
 
