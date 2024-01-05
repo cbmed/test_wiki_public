@@ -18,7 +18,35 @@ Follow these steps:
 * Shut down
 * Restart
 
-[source,mermaid]
+IMPORTANT: don't forget this thing
+
+
+TIP: This might be useful for you
+
+[quote,Albert Einstein]
+A person who never made a mistake never tried anything new.
+
+Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor.
+
+|===
+|Header 1 |Header 2 |Header 3 |Header 4
+
+|Column 1, row 1
+|Column 2, row 1
+|Column 3, row 1
+|Column 4, row 1
+
+|Column 1, row 2
+|Column 2, row 2
+|Column 3, row 2
+|Column 4, row 2
+|===
+
+== Mermaid diagrams
+
+If you want to see the following mermaid chart not only in the github preview but also in PyCharm, you need to follow https://intellij-asciidoc-plugin.ahus1.de/docs/users-guide/features/preview/diagrams.html[this guide]. You also need to change the AsciiDoc plugin setting "Enable built-in Mermaid Diagrams support", see https://intellij-asciidoc-plugin.ahus1.de/docs/users-guide/features/preview/diagrams.html#using-embedded-mermaid-support[here].
+
+[mermaid]
 ....
 sequenceDiagram
     participant Alice
