@@ -4,6 +4,7 @@ Use for testing purposes only (public repository)
 Mermaid is a text-based tool to create charts that render in both Markdown (.md) and AsciiDoc (.adoc). Some examples can be found https://support.typora.io/Draw-Diagrams-With-Markdown/[here]. See also
 https://gist.github.com/plamentotev/be495e81abd52dc10e7dd51fbb71dd8c[this link for more examples].
 
+
 == Flow charts
 [mermaid]
 ....

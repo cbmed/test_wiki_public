@@ -20,7 +20,6 @@ Follow these steps:
 
 IMPORTANT: don't forget this thing
 
-
 TIP: This might be useful for you
 
 [quote,Albert Einstein]
@@ -61,7 +60,6 @@ flowchart TD
     C -->|Two| E
     C -->|Three| F
 ....
-
 
 == Security upgrades
 
