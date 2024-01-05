@@ -1,8 +1,10 @@
 = CBmed test wiki (public)
 Use for testing purposes only (public repository)
 
-https://gist.github.com/plamentotev/be495e81abd52dc10e7dd51fbb71dd8c[See this link]
+Mermaid is a text-based tool to create charts that render in both Markdown (.md) and AsciiDoc (.adoc). Some examples can be found https://support.typora.io/Draw-Diagrams-With-Markdown/[here]. See also
+https://gist.github.com/plamentotev/be495e81abd52dc10e7dd51fbb71dd8c[this link for more examples].
 
+== Flow charts
 [mermaid]
 ....
 flowchart TD
@@ -19,6 +21,7 @@ flowchart TD
     C -->|Three| F
 ....
 
+== Gantt charts
 You can even include Gantt charts
 
 [mermaid]
@@ -52,4 +55,25 @@ Add gantt diagram to demo page      : 20h
 Add another diagram to demo page    : 48h
 ....
 
+== Mind map
 
+[mermaid]
+....
+mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectiveness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid
+....
