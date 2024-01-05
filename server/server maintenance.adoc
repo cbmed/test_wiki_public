@@ -46,6 +46,7 @@ Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lorem ipsum dolor. Lore
 If you want to see the following mermaid chart not only in the github preview but also in PyCharm, you need to follow https://intellij-asciidoc-plugin.ahus1.de/docs/users-guide/features/preview/diagrams.html[this guide]. You also need to change the AsciiDoc plugin setting "Enable built-in Mermaid Diagrams support", see https://intellij-asciidoc-plugin.ahus1.de/docs/users-guide/features/preview/diagrams.html#using-embedded-mermaid-support[here].
 
 [mermaid]
+ifdef::env-github[[source,mermaid]]
 ....
 flowchart TD
     A[Christmas]

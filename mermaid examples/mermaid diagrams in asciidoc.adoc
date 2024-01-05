@@ -4,9 +4,11 @@ Use for testing purposes only (public repository)
 Mermaid is a text-based tool to create charts that render in both Markdown (.md) and AsciiDoc (.adoc). Some examples can be found https://support.typora.io/Draw-Diagrams-With-Markdown/[here]. See also
 https://gist.github.com/plamentotev/be495e81abd52dc10e7dd51fbb71dd8c[this link for more examples].
 
+IMPORTANT: To enable mermaid diagrams both in github and in normal adoc processors (e.g. command line, PyCharm), we need to add ```ifdef::env-github\[[source,mermaid]]``` to help github render the diagram correctly (note the inclusion of `source`).
 
 == Flow charts
 [mermaid]
+ifdef::env-github[[source,mermaid]]
 ....
 flowchart TD
     A[Christmas]
@@ -26,6 +28,7 @@ flowchart TD
 You can even include Gantt charts
 
 [mermaid]
+ifdef::env-github[[source,mermaid]]
 ....
 gantt
 dateFormat  YYYY-MM-DD
@@ -59,6 +62,7 @@ Add another diagram to demo page    : 48h
 == Mind map
 
 [mermaid]
+ifdef::env-github[[source,mermaid]]
 ....
 mindmap
   root((mindmap))
