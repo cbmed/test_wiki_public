@@ -1,0 +1,35 @@
+= Server maintenance
+
+This is what you have to do
+
+== Updates
+
+This is how to do
+
+image::image-2024-01-05-12-29-34-850.png[]
+
+Follow these steps:
+
+* Save all work
+* Close applications
+** Word
+** Excel
+** PowerPoint
+* Shut down
+* Restart
+
+[source,mermaid]
+....
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>Bob: Hello Bob, how are you?
+    Bob-->>Alice: Great!
+....
+
+
+== Security upgrades
+
+Run these scripts
+
+`sudo apt get update`
